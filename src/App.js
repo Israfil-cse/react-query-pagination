@@ -28,9 +28,6 @@ function App() {
             <Route exact path="/:id">
               <Blogs />
             </Route>
-            <Route path="/:id">
-              <SingleData/>
-            </Route>
           </Switch>
         </Router>
         <ReactQueryDevtools />

@@ -11,7 +11,7 @@ const DisplayBlogs = ({data}) => {
                 </div>
                 <h5 class="card-title">{data.title}</h5>
                 <p class="card-text">{data.body}</p>
-                <Link to={`/${data.id}`}><button class="btn btn-success">see more</button></Link>
+                <button class="btn btn-dark">see more</button>
             </div>
         </div>
     );
